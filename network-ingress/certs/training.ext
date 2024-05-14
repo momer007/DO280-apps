@@ -1,0 +1,11 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
+
+[alt_names]
+# Replace with your domain name (i.e. domain.example.com)
+DNS.1 = *.ocp4.tech-mate.io
+
+# Replace with the content of apps.ocp-jppjvorndzppqro200626.do280.rht-na.nextcle.com
+DNS.2 = *.apps.ocp4.tech-mate.io
